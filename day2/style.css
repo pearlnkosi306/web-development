@@ -109,7 +109,7 @@ form label {
 }
 
 form input,
-form textarea {
+form textarea,
 form select {
     width: 100%;
     padding: 10px;
@@ -131,10 +131,12 @@ input[type="submit"] {
     font-size: 1rem;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
+
 button:hover {
     background-color: #088a70;
     transform: translateY(-2px);
 }
+
 footer {
     text-align: center;
     padding: 16px;
@@ -142,16 +144,19 @@ footer {
     color: white;
     margin-top: 24px;
 }
+
 /* 9. Phones: smaller header text and padding */
 @media (max-width: 600px) {
     header h1 {
         font-size: 1.8rem;
     }
+
     header {
         padding: 12px 8px;
     }
+
     header nav {
         flex-direction: column;
         gap: 8px;
     }
-    
+}
