@@ -155,9 +155,4 @@ footer {
     header {
         padding: 12px 8px;
     }
-
-    header nav {
-        flex-direction: column;
-        gap: 8px;
-    }
 }
